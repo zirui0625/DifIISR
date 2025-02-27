@@ -5,7 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/pytorch-2.1.2-%237732a8)](https://pytorch.org/)
 
 <div align=center>
-<img src="https://github.com/zirui0625/DifIISR/blob/main/figures/network" width="50%">
+<img src="https://github.com/zirui0625/DifIISR/blob/main/figures/network.png" width="50%">
 </div>
 
 ### DifIISR: Diffusion Model with Gradient Guidance for Infrared Image Super-Resolution [CVPR 2025]
