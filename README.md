@@ -13,4 +13,4 @@
 ## Updates
 [2025-2-27] Our paper has been accepted by CVPR 2025, and the code will be released soon.
 
-## Experiments results
+
