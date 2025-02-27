@@ -7,7 +7,7 @@
 ### DifIISR: Diffusion Model with Gradient Guidance for Infrared Image Super-Resolution [CVPR 2025]
 
 <div align=center>
-<img src="https://github.com/zirui0625/DifIISR/blob/main/figures/network.png" width="90%">
+<img src="https://github.com/zirui0625/DifIISR/blob/main/figures/network.png" width="80%">
 </div>
 
 ## Updates
