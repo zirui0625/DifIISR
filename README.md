@@ -12,6 +12,7 @@
 
 ## Updates
 [2025-3-4] You can find our paper [here](https://arxiv.org/abs/2503.01187).
+
 [2025-2-27] Our paper has been accepted by CVPR 2025, and the code will be released soon.
 
 
