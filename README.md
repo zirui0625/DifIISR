@@ -14,4 +14,15 @@
 [2025-3-4] You can find our paper [here](https://arxiv.org/abs/2503.01187).  
 [2025-2-27] Our paper has been accepted by CVPR 2025, and the code will be released soon.
 
+## Citation
+```
+@article{li2025difiisr,
+  title={DifIISR: A Diffusion Model with Gradient Guidance for Infrared Image Super-Resolution},
+  author={Li, Xingyuan and Wang, Zirui and Zou, Yang and Chen, Zhixin and Ma, Jun and Jiang, Zhiying and Ma, Long and Liu, Jinyuan},
+  journal={arXiv preprint arXiv:2503.01187},
+  year={2025}
+}
+```
+
+
 
