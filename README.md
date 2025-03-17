@@ -14,6 +14,21 @@
 [2025-3-4] You can find our paper [here](https://arxiv.org/abs/2503.01187).  
 [2025-2-27] Our paper has been accepted by CVPR 2025, and the code will be released soon.
 
+## Environment
+```
+# create virtual environment
+conda create -n DifIISR python=3.10
+conda activate DifIISR
+# install requirements
+pip install -r requirements.txt
+```
+
+## Test
+Our checkpoints can be found in [Google drive](https://drive.google.com/file/d/1PhRvk1Dlp3CCrPkrxRfNbNZ3fNgviDVZ/view?usp=drive_link), put it in 'DifIISR/models/', you can test our method through
+```
+CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output results --config configs/DifIISR_test.yaml
+```
+
 ## Citation
 ```
 @article{li2025difiisr,
@@ -23,6 +38,8 @@
   year={2025}
 }
 ```
+## Acknowledgement
+Our codes are based on [Resshift](https://github.com/zsyOAOA/ResShift), [SinSR](https://github.com/wyf0912/SinSR), thanks for their contribution.
 
 
 
