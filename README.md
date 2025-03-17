@@ -39,7 +39,7 @@ CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output result
 }
 ```
 ## Acknowledgement
-Our codes are based on [Resshift](https://github.com/zsyOAOA/ResShift), [SinSR](https://github.com/wyf0912/SinSR), thanks for their contribution.
+Our codes are based on [ResShift](https://github.com/zsyOAOA/ResShift), [SinSR](https://github.com/wyf0912/SinSR), thanks for their contribution.
 
 
 
