@@ -39,14 +39,14 @@ def evaluate(input, reference, ntest):
         input = lr_list[i]
         reference = reference_list[i] if reference_list is not None else None
         
-        im_in = util_image.imread(input, chn='rgb', dtype='float32')  # h x w x c
+        im_in = util_image.imread(input, chn='GREY', dtype='float32')  # h x w x c
         im_in_tensor = util_image.img2tensor(im_in).cuda()              # 1 x c x h x w
         for key, metric in metric_dict.items():
             with torch.cuda.amp.autocast():
                 result[key] = result.get(key, 0) + metric(im_in_tensor).item()
         
         if reference is not None:
-            im_ref = util_image.imread(reference, chn='rgb', dtype='float32')  # h x w x c
+            im_ref = util_image.imread(reference, chn='GREY', dtype='float32')  # h x w x c
             im_ref_tensor = util_image.img2tensor(im_ref).cuda()    
             for key, metric in metric_paired_dict.items():
                 result[key] = result.get(key, 0) + metric(im_in_tensor, im_ref_tensor).item()
