@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ## Test
 Our checkpoints can be found in [Google drive](https://drive.google.com/file/d/1PhRvk1Dlp3CCrPkrxRfNbNZ3fNgviDVZ/view?usp=drive_link), put it in 'DifIISR/weights/', you can test our method through
 ```
-CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output results --config configs/DifIISR_test.yaml
+CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output results -reference dataset/test/HR --config configs/DifIISR_test.yaml
 ```
 
 ## Citation
