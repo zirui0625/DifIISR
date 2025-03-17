@@ -3,6 +3,7 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-green)](https://github.com/wdhudiekou/UMF-CMGR/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-2.1.2-%237732a8)](https://pytorch.org/)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=zirui0625.DifIISR)
 
 ### DifIISR: Diffusion Model with Gradient Guidance for Infrared Image Super-Resolution [CVPR 2025]
 
