@@ -42,7 +42,7 @@ CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output result
 ## Contact
 If you have any questions, feel free to contact me through <code style="background-color: #f0f0f0;">ziruiwang0625@gmail.com</code>。
 ## Acknowledgement
-Our codes are based on [ResShift](https://github.com/zsyOAOA/ResShift), [Sinsr](https://github.com/CompVis/latent-diffusion), thanks for their contribution.
+Our codes are based on [ResShift](https://github.com/zsyOAOA/ResShift), [SinSR](https://github.com/CompVis/latent-diffusion), thanks for their contribution.
 
 
 
