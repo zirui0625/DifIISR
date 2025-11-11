@@ -32,10 +32,11 @@ CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output result
 
 ## Citation
 ```
-@article{li2025difiisr,
-  title={DifIISR: A Diffusion Model with Gradient Guidance for Infrared Image Super-Resolution},
+@inproceedings{li2025difiisr,
+  title={Difiisr: A diffusion model with gradient guidance for infrared image super-resolution},
   author={Li, Xingyuan and Wang, Zirui and Zou, Yang and Chen, Zhixin and Ma, Jun and Jiang, Zhiying and Ma, Long and Liu, Jinyuan},
-  journal={arXiv preprint arXiv:2503.01187},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={7534--7544},
   year={2025}
 }
 ```
