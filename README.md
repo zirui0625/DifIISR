@@ -31,7 +31,7 @@ CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output result
 ```
 ## Train
 ### Download
-
+You can download our training set [here](https://github.com/hey-it-s-me/CoRPLE)
 ### Run
 Put the training data and validation data into `./dataset/train` and `./dataset/val`, respectively, and run
 ```
