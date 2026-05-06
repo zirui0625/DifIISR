@@ -31,6 +31,8 @@ CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output result
 ```
 ## Train
 ### Download
+
+### Run
 Put the training data and validation data into `./dataset/train` and `./dataset/val`, respectively, and run
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py
