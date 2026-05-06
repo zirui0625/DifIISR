@@ -30,7 +30,7 @@ Our checkpoints can be found in [Google drive](https://drive.google.com/file/d/1
 CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output results -reference dataset/test/HR --config configs/DifIISR_test.yaml
 ```
 ## Train
-Put the training set data and validation set data into `./dataset/train` and `./dataset/val`, respectively, and run
+Put the training data and validation data into `./dataset/train` and `./dataset/val`, respectively, and run
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py
 ```
