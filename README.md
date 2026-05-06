@@ -29,6 +29,8 @@ Our checkpoints can be found in [Google drive](https://drive.google.com/file/d/1
 ```
 CUDA_VISIBLE_DEVICES=0 python inference.py -input dataset/test/LR -output results -reference dataset/test/HR --config configs/DifIISR_test.yaml
 ```
+## Train
+
 
 ## Citation
 ```
